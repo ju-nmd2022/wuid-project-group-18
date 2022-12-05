@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <!-- Global Styles -->
+    <link rel="stylesheet" href="styles/global.css" />
+    <!-- Page Styles -->
+    <link rel="stylesheet" href="styles/product.css" />
+    <!-- Global Media Queries -->
+    <link rel="stylesheet" href="styles/queries_global.css">
+    <!-- Page Media Queries -->
+    <link rel="stylesheet" href="styles/queries_product.css">
+    <!-- The following three lines are from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Add item to cart</title>
+  </head>
+  <body>
+        <!-- Body Content -->
+    <nav class="topbar">
+        <a class="logo" href="index.html"><img src="media/images/Logotype_RGB.png" alt="Lush Brand Logo"/></a>
+        <ul class="navbar">
+          <li class="link-menu"><a href="index.html">Home</a></li>
+          <li class="link-menu"><a href="list.html">Shop All</a></li>
+          <li class="link-menu"><a href="#">Bestsellers</a></li>
+          <li class="link-menu"><a href="#">Customize Lipbalm</a></li>
+          <li class="link-menu"><a href="#">About us</a></li>
+        </ul>
+        <div class="navside">
+          <a class="btn-menu" href="#"
+            ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a class="btn-menu" href="cart.html"
+            ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+            ><span id="cart-item-count">5</span></a
+          >
+          <a class="btn-menu" href="#"
+            ><i class="fa-sharp fa-solid fa-user"></i
+          ></a>
+        </div>
+      </nav>
+      <main>
+        <section class="product-section">
+            <div class="product-images">
+                <img class="product-image" src="media/images/matte.jpg" alt="Product Image">
+                <img class="product-image" src="media/images/matte.jpeg" alt="Product Image">
+            </div>
+            <div class="product-description">
+                <div>
+                  <h2 class="product-name">Shimmer lipgloss</h2>
+                  <p class="product-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque molestiae sapiente vel sequi odio ab et qui itaque sint<br /><br /><br />nostrum reprehenderit, pariatur magni nulla odit accusantium dignissimos doloribus repudiandae officia illo nobis? Iure dicta, dolorum, a vero corporis facere.</p>
+                </div>
+                <div>
+                  <span class="cta-product">Add to bag</span>
+                  <span class="horizontal-separator"></span>
+                  <div class="product-reviews">                    
+                    <span>Reviews</span><span>+</span>                    
+                  </div>
+                  <span class="horizontal-separator"></span>
+                </div>
+            </div>
+        </section>
+        <section class="suggestions-section">
+            <p>People who bought this also looked at:</p>
+            <div class="suggestions">
+              <div class="suggestion">
+                <img class="suggestion-image" src="media/images/shiny.jpg" alt="Glossy lipgloss">
+                <div><p class="suggestion-name">Glossy lipgloss</p><p><span class="suggestion-price">330</span> Kr</p></div>
+              </div>
+              <div class="suggestion">
+                <img class="suggestion-image" src="media/images/shiny.jpg" alt="Glossy lipgloss">
+                <div><p class="suggestion-name">Glossy lipgloss</p><p><span class="suggestion-price">330</span> Kr</p></div>
+              </div>
+              <div class="suggestion">
+                <img class="suggestion-image" src="media/images/shiny.jpg" alt="Glossy lipgloss">
+                <div><p class="suggestion-name">Glossy lipgloss</p><p><span class="suggestion-price">330</span> Kr</p></div>
+              </div>
+              <div class="suggestion">
+                <img class="suggestion-image" src="media/images/shiny.jpg" alt="Glossy lipgloss">
+                <div><p class="suggestion-name">Glossy lipgloss</p><p><span class="suggestion-price">330</span> Kr</p></div>
+              </div>
+            </div>
+        </section>
+      </main>
+      <footer class="bottom">
+        <ul class="footer-links">
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">COMPANY BLOG</a></li>
+          <li><a href="#">WORK WITH US</a></li>
+          <li><a href="#">HELP</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">RETURNS &amp; EXCHANGES</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+        <ul class="footer-socials">
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+      </footer>
+      <!-- Font Awesome Icon Kit Reference -->
+      <script
+        src="https://kit.fontawesome.com/0d8945037b.js"
+        crossorigin="anonymous"
+      ></script>
+      <script src="scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+/* Featured section */
+
+main{
+  padding: 30px 0;
+  width: 95vw;
+  margin: 0 auto;
+}
+
+.product-section{
+  width: 100%;
+  padding: 50px 0 80px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.product-images{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-description{
+  width: 20%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-image{
+  width: 45%;
+}
+
+.product-name{
+  font-size: 150%;
+  color: #935050;
+  margin-bottom: 40px;
+}
+
+.product-text{
+  font-size: 90%;
+}
+
+.cta-product{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 150%;
+  padding: 30px 0;
+  color: white;
+  background-color: #CCA6A4;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-product:hover{
+  background-color: #af8f8e;
+}
+
+.product-reviews{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 120%;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.horizontal-separator{
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.suggestions-section{
+  padding: 60px 0;
+}
+
+.suggestions-section > p{
+  font-size: 120%;
+  margin-bottom: 80px;
+}
+
+.suggestions{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.suggestion{
+  width: 90%;
+}
+
+.suggestion-image{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.suggestion div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.suggestion div p:nth-of-type(2){
+  color: #935050;
+}
