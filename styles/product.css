@@ -50,6 +50,7 @@ main{
 }
 
 .cta-product{
+  position: relative;
   display: block;
   width: 100%;
   text-align: center;
@@ -57,6 +58,7 @@ main{
   padding: 30px 0;
   color: white;
   background-color: #CCA6A4;
+  border: 2px solid #CCA6A4;
   margin-bottom: 50px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -64,6 +66,19 @@ main{
 
 .cta-product:hover{
   background-color: #af8f8e;
+}
+
+.cta-cue{
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #af8f8e;
+  color: #af8f8e;
+}
+
+.cta-cue:hover{
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #af8f8e;
+  color: #af8f8e;
+  cursor: default;
 }
 
 .product-reviews{

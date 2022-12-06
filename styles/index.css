@@ -15,6 +15,11 @@
     font-size: 200%;
     margin-top: 30px;
     margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .cta-hero{
+    margin: 0 20px;
   }
   
   .cta-hero span {
@@ -22,8 +27,7 @@
     border: 2px solid white;
     padding: 10px 25px;
     border-radius: 8px;
-    font-size: 80%;
-    margin-right: 30px;
+    font-size: 80%;    
     color: white;
     transition: all 0.3s;
   }
