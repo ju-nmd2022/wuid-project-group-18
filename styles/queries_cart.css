@@ -1,21 +1,88 @@
 /* Applied only to the shopping cart page */
 
+/* For medium desktop screens */
+@media only screen and (max-width: 1650px){
+    .invoice{
+        width: 35%;
+    }
+    .panel-customize{
+        width: 45%;
+        font-size: 170%;
+    }
+    .suggestions-section{
+        width: 70%;
+        margin-left: 30%;
+    }
+}
+
 /* For small desktop screens */
 @media only screen and (max-width: 1200px){
-    
+    .invoice{
+        width: 45%;
+    }
+    .suggestions-section{
+        width: 90%;
+        margin-left: 10%;
+    }
 }
 
 /* For tablet screens */
 @media only screen and (max-width: 1024px){
-    
+    .checkout-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .invoice{
+        width: 55%;
+    }
+    .panel-customize{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        color: #935050;
+    }
+    .panel-customize span{
+        transform: rotate(90deg);
+        color: #935050;
+    }
+    .customize-mobile:after{
+        content: "Click to customize";
+        font-size: 70%;        
+    }
+    .panel-customize p{
+        display: none;
+    }
+    .suggestions-section{
+        width: 100%;
+        margin-left: 0;
+    }
+    .suggestions{
+        grid-template-columns: repeat(2, 1fr);        
+    }
+    .suggestion{
+        margin-bottom: 70px;
+    }
 }
 
 /* For phone screens */
 @media only screen and (max-width: 768px){
-    
+    .invoice{
+        width: 75%;
+    }
+    .panel-customize{
+        width: 65%;
+    }
+    .suggestions-section >p{
+        font-size: 100%;
+        line-height: 150%;
+    }
 }
 
 /* For small phone screens */
 @media only screen and (max-width: 480px){
-    
+    .invoice{
+        width: 95%;
+    }
+    .suggestions{
+        grid-template-columns: 1fr;
+    }
 }

@@ -1,21 +1,105 @@
 /* Applied only to the product description page */
 
+/* For medium desktop screens */
+@media only screen and (max-width: 1700px){
+    .product-section{
+        justify-content: space-between;
+    }
+    .product-images{
+        width: 60%;
+    }
+    .product-image{
+        /* width: 50%; */
+    }
+    .product-description{
+        width: 30%;
+    }
+}
+
 /* For small desktop screens */
-@media only screen and (max-width: 1200px){
-    
+@media only screen and (max-width: 1200px){    
+    .product-images{
+        width: 50%;
+        flex-direction: column;        
+        align-items: center;
+    }
+    .product-image{
+        width: 50%
+    }
+    .product-description{
+        width: 40%;
+    }
+    .suggestions{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .suggestion{
+        margin-bottom: 60px;
+    }
 }
 
 /* For tablet screens */
 @media only screen and (max-width: 1024px){
-    
+    .product-section{
+        flex-direction: column-reverse;
+        align-items: center;
+    }    
+    .product-images{
+        width: 70%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .product-description-mobile{
+        display: block;
+    }
+    .product-description{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cta-product{
+        font-size: 100%;
+    }
+    .product-text, .product-reviews, .horizontal-separator{
+        display: none;
+    }
+    .cta-product{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .product-description-mobile .product-text, .product-description-mobile .horizontal-separator{
+        display: block;
+    }
+    .product-description-mobile .product-reviews{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 /* For phone screens */
 @media only screen and (max-width: 768px){
-    
+    .product-images, .product-description, .product-description-mobile{
+        width: 80%;
+    }
+    .product-name{
+        font-size: 120%;
+    }
+    .suggestions{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* For small phone screens */
 @media only screen and (max-width: 480px){
-    
+    .product-images, .product-description, .product-description-mobile{
+        width: 90%;
+    }
+    .product-name{
+        font-size: 100%;
+    }
+    .suggestions{
+        grid-template-columns: 1fr;
+    }
 }
