@@ -1,0 +1,27 @@
+/* To be applied globally throughout the website */
+
+/* For small desktop screens */
+@media only screen and (max-width: 1200px){
+    
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1024px){
+    .featured-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For phone screens */
+@media only screen and (max-width: 768px){
+    .hero h1{
+        font-size: 150%;
+    }
+}
+
+/* For small phone screens */
+@media only screen and (max-width: 480px){
+    .hero h1{
+        font-size: 130%;
+    }
+}

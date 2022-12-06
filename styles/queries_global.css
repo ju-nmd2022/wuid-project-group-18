@@ -1,5 +1,58 @@
-@media only screen and (max-width = 1200px){
-    body{
-        background-color: black;
+/* To be applied globally throughout the website */
+
+/* For small desktop screens */
+@media only screen and (max-width: 1200px){
+    #menu-toggle{
+        display: block;        
     }
+    .navbar{
+        position: fixed;
+        top: 128px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ebdcd4;
+        padding-top: 50px;
+        padding-left: 100px;
+        display: none;
+    }
+    .navbar .link-menu{
+        display: block;
+        border: none;
+        margin-bottom: 50px;
+    }
+    .navbar .link-menu a{
+        color: #935050;
+        font-size: 120%;
+    }
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1024px){
+    
+}
+
+/* For phone screens */
+@media only screen and (max-width: 768px){    
+    footer{
+        flex-direction: column;
+    }
+    .footer-links li{
+        padding-top: 24px;
+    }
+    .footer-socials{
+        align-self: center;
+        margin-right: 0;
+        margin-top: 70px;
+    }
+}
+
+/* For small phone screens */
+@media only screen and (max-width: 480px){
+    .logo{
+        display: none;
+    }
+    .footer-links{
+        columns: 1;
+    }    
 }

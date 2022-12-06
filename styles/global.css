@@ -40,6 +40,22 @@ body::-webkit-scrollbar{
   /* border: 3px solid grey; */
 }
 
+#menu-toggle{  
+  margin-left: 40px;
+  font-size: 200%;
+  color: #935050;
+  cursor: pointer;
+  display: none;
+}
+
+#toggle-logic{
+  display: none;
+}
+
+#toggle-logic:checked ~ .navbar{
+  display: block;
+}
+
 .navbar {
   align-self: flex-end;
   padding-bottom: 15px;
@@ -110,7 +126,7 @@ footer {
 }
 
 .footer-links li {
-  padding-top: 12px;  
+  padding-top: 12px;
 }
 
 .footer-links li a{
