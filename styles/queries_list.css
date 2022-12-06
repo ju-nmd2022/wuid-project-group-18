@@ -1,0 +1,62 @@
+/* Applied only to the items list page */
+
+/* For medium desktop screens */
+@media only screen and (max-width: 1500px){
+    .list-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For small desktop screens */
+@media only screen and (max-width: 1200px){
+    .sidebar-filters{
+        position: static;
+        padding-left: 50px;
+        margin-top: 50px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sidebar-filters h3{
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    .sidebar-filters *{
+        display: none;
+    }
+    .sidebar-filters h2{
+        display: block;
+        font-size: 120%;
+    }
+    .sidebar-filters .filter-price-panel{
+        display: block;
+        padding-right: 50px;
+    }
+    .sidebar-filters .filter-price-panel h3, .sidebar-filters .filter-price-panel #filter-sortby{
+        display: inline-block;
+    }
+    .list-items{
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0;
+    }
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1024px){
+    .list-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* For phone screens */
+@media only screen and (max-width: 768px){
+    
+}
+
+/* For small phone screens */
+@media only screen and (max-width: 480px){
+    .list-items{
+        grid-template-columns: 1fr;
+    }
+}

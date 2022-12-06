@@ -50,6 +50,63 @@
       </div>
     </nav>
     <main>
+      <aside class="sidebar-filters">
+        <h2>Filters</h2>          
+          <div class="filter-price-panel">
+            <h3>Price</h3>
+            <input class="filter-price" type="number"><span> Kr&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;</span>
+            <input class="filter-price" type="number"><span> Kr <br /></span>
+            <select name="sort" id="filter-sortby">
+              <option value="lowToHigh"> Low to High</option>
+              <option value="highToLow">High to Low</option>
+            </select>
+          </div>
+          <h3>Popularity</h3>
+          <ul class="filter-categories">
+            <li>Featured</li>
+            <li>Our Choice</li>
+            <li>Fan Favorite</li>
+          </ul>
+          <h3>Reviews</h3>
+          <div class="filter-ratings">
+            <ul class="customer-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+            </ul>
+            <ul class="customer-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <ul class="customer-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <ul class="customer-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+            <ul class="customer-rating">
+              <li><i class="fa-solid fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+              <li><i class="fa-regular fa-star"></i></li>
+            </ul>
+          </div>
+          <label for="available">In Stock</label><input type="checkbox" name="available">
+      </aside>
       <section class="list-items">
         <div class="item-container">
           <a class="item" href="#">
@@ -172,62 +229,7 @@
             </div>
           </a>
         </div>
-      </section>
-      <aside class="sidebar-filters">
-        <h2>Filters</h2>
-          <h3>Price</h3>
-          <input class="filter-price" type="number"> Kr&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;
-          <input class="filter-price" type="number"> Kr <br />
-          <select name="sort" id="filter-sortby">
-            <option value="lowToHigh"> Low to High</option>
-            <option value="highToLow">High to Low</option>
-          </select>
-          <h3>Popularity</h3>
-          <ul class="filter-categories">
-            <li>Featured</li>
-            <li>Our Choice</li>
-            <li>Fan Favorite</li>
-          </ul>
-          <h3>Reviews</h3>
-          <div class="filter-ratings">
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-          </div>
-          <label for="available">In Stock</label><input type="checkbox" name="available">
-      </aside>
+      </section>      
     </main>
     <footer class="bottom">
       <ul class="footer-links">

@@ -1,0 +1,21 @@
+/* Applied only to the product description page */
+
+/* For small desktop screens */
+@media only screen and (max-width: 1200px){
+    
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1024px){
+    
+}
+
+/* For phone screens */
+@media only screen and (max-width: 768px){
+    
+}
+
+/* For small phone screens */
+@media only screen and (max-width: 480px){
+    
+}
