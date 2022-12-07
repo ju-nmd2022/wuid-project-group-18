@@ -3,8 +3,9 @@
 .hero {
     /* Would be good if we fixed this later... */
     padding: 100px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url("../media/images/bg_hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../media/images/header.jpg");
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
