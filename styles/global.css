@@ -1,14 +1,14 @@
 /* Fonts imported from Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap");
 
 /* General settings */
 
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14pt;
   font-weight: 400;
   color: #2c2c2c;
@@ -17,7 +17,7 @@ body {
   -ms-overflow-style: none;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -26,7 +26,7 @@ body::-webkit-scrollbar{
 .topbar {
   position: relative;
   width: 100%;
-  background-color: #d8d0cc;
+  background-color: #e0d2cc;
   height: 8rem;
   display: flex;
   flex-direction: row;
@@ -42,7 +42,7 @@ body::-webkit-scrollbar{
   /* border: 3px solid grey; */
 }
 
-#menu-toggle{  
+#menu-toggle {
   margin-left: 40px;
   font-size: 200%;
   color: #935050;
@@ -50,11 +50,11 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-#toggle-logic{
+#toggle-logic {
   display: none;
 }
 
-#toggle-logic:checked ~ .navbar{
+#toggle-logic:checked ~ .navbar {
   display: block;
 }
 
@@ -109,7 +109,7 @@ body::-webkit-scrollbar{
 }
 
 footer {
-  background-color: #d8d0cc;
+  background-color: #e0d2cc;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -130,34 +130,34 @@ footer {
   padding-top: 12px;
 }
 
-.footer-links li a{
+.footer-links li a {
   text-decoration: none;
-  color: black;
+  color: #2c2c2c;
   transition: all 0.3s;
 }
 
-.footer-links li a:hover{
+.footer-links li a:hover {
   color: rgb(50, 50, 50);
 }
 
-.footer-socials{
+.footer-socials {
   list-style-type: none;
   align-self: flex-end;
   margin-right: 50px;
 }
 
-.footer-socials li{
+.footer-socials li {
   display: inline-block;
   margin-left: 10px;
   align-self: flex-end;
 }
 
-.footer-socials li a{
+.footer-socials li a {
   font-size: 200%;
   color: #935050;
   transition: 0.3s;
 }
 
-.footer-socials li a:hover{
+.footer-socials li a:hover {
   color: #6d3b3b;
 }
