@@ -12,21 +12,28 @@
     <!-- Page Styles -->
     <link rel="stylesheet" href="styles/list.css" />
     <!-- Global Media Queries -->
-    <link rel="stylesheet" href="styles/queries_global.css">
+    <link rel="stylesheet" href="styles/queries_global.css" />
     <!-- Page Media Queries -->
-    <link rel="stylesheet" href="styles/queries_list.css">
+    <link rel="stylesheet" href="styles/queries_list.css" />
     <!-- The following three lines are from google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>All products - lush</title>
   </head>
   <body>
     <!-- Body Content -->
     <nav class="topbar">
-      <label for="toggle-logic" id="menu-toggle"><i class="fa-sharp fa-solid fa-bars"></i></label>
-      <input type="checkbox" name="toggle-logic" id="toggle-logic">
-      <a class="logo" href="index.html"><img src="media/images/Logotype_RGB.png" alt="Lush Brand Logo"/></a>
+      <label for="toggle-logic" id="menu-toggle"
+        ><i class="fa-sharp fa-solid fa-bars"></i
+      ></label>
+      <input type="checkbox" name="toggle-logic" id="toggle-logic" />
+      <a class="logo" href="index.html"
+        ><img src="media/images/Logotype_RGB.png" alt="Lush Brand Logo"
+      /></a>
       <ul class="navbar">
         <li class="link-menu"><a href="index.html">Home</a></li>
         <li class="link-menu"><a href="#">Shop All</a></li>
@@ -49,70 +56,79 @@
     </nav>
     <main>
       <aside class="sidebar-filters">
-        <h2>Filters</h2>          
-          <div class="filter-price-panel">
-            <h3>Price</h3>
-            <input class="filter-price" type="number"><span> Kr&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;</span>
-            <input class="filter-price" type="number"><span> Kr <br /></span>
-            <select name="sort" id="filter-sortby">
-              <option value="lowToHigh"> Low to High</option>
-              <option value="highToLow">High to Low</option>
-            </select>
-          </div>
-          <h3>Popularity</h3>
-          <ul class="filter-categories">
-            <li>Featured</li>
-            <li>Our Choice</li>
-            <li>Fan Favorite</li>
+        <h2>Filters</h2>
+        <div class="filter-price-panel">
+          <h3>Price</h3>
+          <input class="filter-price" type="number" /><span>
+            Kr&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;</span
+          >
+          <input class="filter-price" type="number" /><span> Kr <br /></span>
+          <select name="sort" id="filter-sortby">
+            <option value="lowToHigh">Low to High</option>
+            <option value="highToLow">High to Low</option>
+          </select>
+        </div>
+        <h3>Popularity</h3>
+        <ul class="filter-categories">
+          <li>Featured</li>
+          <li>Our Choice</li>
+          <li>Fan Favorite</li>
+        </ul>
+        <h3>Reviews</h3>
+        <div class="filter-ratings">
+          <ul class="customer-rating">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
           </ul>
-          <h3>Reviews</h3>
-          <div class="filter-ratings">
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-            <ul class="customer-rating">
-              <li><i class="fa-solid fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-              <li><i class="fa-regular fa-star"></i></li>
-            </ul>
-          </div>
-          <label for="available">In Stock</label><input type="checkbox" name="available">
+          <ul class="customer-rating">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+          </ul>
+          <ul class="customer-rating">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+          </ul>
+          <ul class="customer-rating">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+          </ul>
+          <ul class="customer-rating">
+            <li><i class="fa-solid fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+            <li><i class="fa-regular fa-star"></i></li>
+          </ul>
+        </div>
+        <label for="available">In Stock</label
+        ><input type="checkbox" name="available" />
       </aside>
       <section class="list-items">
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -120,10 +136,16 @@
         <div class="item-container">
           <a class="item" href="product.html">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
-                <p class="item-name">Shimmer Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-name">Matte Lipstick</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -131,10 +153,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
-                <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-name">Nude Lipbalm</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -142,10 +170,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -153,10 +187,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -164,10 +204,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -175,10 +221,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -186,10 +238,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -197,10 +255,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -208,10 +272,16 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
@@ -219,15 +289,21 @@
         <div class="item-container">
           <a class="item" href="#">
             <div class="item-card">
-              <img class="item-image" src="media/images/shiny.jpg" alt="Item image">
+              <img
+                class="item-image"
+                src="media/images/shiny.jpg"
+                alt="Item image"
+              />
               <div class="item-label">
                 <p class="item-name">Shiny Lipgloss</p>
-                <p class="item-pricetag"><span class="item-price">600</span> Kr</p>
+                <p class="item-pricetag">
+                  <span class="item-price">600</span> Kr
+                </p>
               </div>
             </div>
           </a>
         </div>
-      </section>      
+      </section>
     </main>
     <footer class="bottom">
       <ul class="footer-links">
@@ -241,9 +317,15 @@
         <li><a href="#">FAQ</a></li>
       </ul>
       <ul class="footer-socials">
-        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
       </ul>
     </footer>
     <!-- Font Awesome Icon Kit Reference -->
