@@ -34,6 +34,9 @@ body::-webkit-scrollbar {
   align-items: center;
   box-shadow: 0 1px 3px rgb(194, 194, 194);
   z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .logo img {
@@ -218,6 +221,10 @@ body::-webkit-scrollbar {
 
 .cart-clear-screen.visible{
   left: 0;
+}
+
+.offset{
+  margin-bottom: 8rem;
 }
 
 footer {

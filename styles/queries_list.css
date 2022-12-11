@@ -12,7 +12,7 @@
     .sidebar-filters{
         position: static;
         padding-left: 50px;
-        margin-top: 50px;
+        margin-top: 12rem;
         height: auto;
         display: flex;
         flex-direction: row;
