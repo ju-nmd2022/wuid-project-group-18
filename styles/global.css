@@ -120,6 +120,7 @@ body::-webkit-scrollbar {
   z-index: 1;  
   transition: all 0.3s;
   display: none;
+  overflow: hidden;
 }
 
 .shopping-cart-quickview.animate-close{
